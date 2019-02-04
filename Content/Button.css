@@ -1,0 +1,44 @@
+﻿body{
+    
+}
+.goTop {
+    display:none;
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #4b2e83;
+    color: white;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.goBot {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #4b2e83;
+    color: white;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.goTop:hover {
+    background-color: #555;
+}
+
+.goBot:hover {
+    background-color: #555;
+}
+
+

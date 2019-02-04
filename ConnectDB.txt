@@ -1,0 +1,13 @@
+HOW TO CONNECT DB FOR INDIVIDUAL WORK
+
+-Open StudentApp solution
+-Open Server Explorer
+-Right click on db if you have one set up then modify connection
+-Otherwise right click and add connection to data connections
+-Server name mssql.cs.ksu.edu and choose your cis560_team20 for db name
+-Right click on Database click properties 
+-Copy connection string
+-Open Web.config
+-Paste where connectionstring=
+in the <connectionStrings> tag 
+-Prosper
